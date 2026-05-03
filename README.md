@@ -1,2 +1,26 @@
-# Payment-QR-Generator
-A Python-based QR Code Generator that converts user payment details into a simulated UPI-style payment QR code. The project demonstrates how QR codes can encode payment information in digital systems like mobile wallets.
+# 💳  Payment QR Generator
+
+A simple Python project that generates QR codes from user input in a simulated UPI-style payment format.
+
+---
+
+## 🚀 Features
+
+- Takes user input (name, amount, note)
+- Converts data into UPI-style payment string
+- Generates QR code image
+- Saves QR as PNG file
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- qrcode library
+
+---
+
+## 📦 Installation
+
+```bash
+pip install qrcode[pil]
